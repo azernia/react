@@ -6,6 +6,7 @@ import BindEvent from "./01-base/BindEvent";
 import GetInputValue from "./01-base/GetInputValue";
 import ComponentState from "./01-base/ComponentState";
 import CycleRender from "./01-base/CycleRender";
+import TodoList from "./01-base/practice/TodoList";
 
 const App = () => {
     return (
@@ -19,6 +20,8 @@ const App = () => {
             <GetInputValue/>
             <ComponentState/>
             <CycleRender/>
+            <hr/>
+            <TodoList/>
         </div>
     );
 }
