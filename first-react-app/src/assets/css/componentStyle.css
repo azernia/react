@@ -1,0 +1,7 @@
+.demo {
+    background-color: blue;
+}
+
+.demo:hover {
+    color: red;
+}
