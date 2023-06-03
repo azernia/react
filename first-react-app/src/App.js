@@ -7,7 +7,8 @@
 // import ComponentState from "./01-base/ComponentState";
 // import CycleRender from "./01-base/CycleRender";
 // import TodoList from "./01-base/practice/TodoList";
-import TabControl from "./01-base/practice/TabControl";
+// import TabControl from "./01-base/practice/TabControl";
+import Navbar from "./01-base/Navbar";
 
 const App = () => {
     return (
@@ -23,7 +24,8 @@ const App = () => {
             {/*<CycleRender/>*/}
             {/*<hr/>*/}
             {/*<TodoList/>*/}
-            <TabControl/>
+            {/*<TabControl/>*/}
+            <Navbar title="父组件传值"/>
         </div>
     );
 }
