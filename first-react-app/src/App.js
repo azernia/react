@@ -8,7 +8,8 @@
 // import CycleRender from "./01-base/CycleRender";
 // import TodoList from "./01-base/practice/TodoList";
 // import TabControl from "./01-base/practice/TabControl";
-import Navbar from "./01-base/Navbar";
+// import ComponentProps from "./01-base/ComponentProps";
+import ComponentPropsByFunction from "./01-base/ComponentPropsByFunction";
 
 const App = () => {
     return (
@@ -25,7 +26,8 @@ const App = () => {
             {/*<hr/>*/}
             {/*<TodoList/>*/}
             {/*<TabControl/>*/}
-            <Navbar title="父组件传值"/>
+            {/*<ComponentProps/>*/}
+            <ComponentPropsByFunction/>
         </div>
     );
 }
