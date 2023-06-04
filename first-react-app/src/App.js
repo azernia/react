@@ -9,7 +9,9 @@
 // import TodoList from "./01-base/practice/TodoList";
 // import TabControl from "./01-base/practice/TabControl";
 // import ComponentProps from "./01-base/ComponentProps";
-import ComponentPropsByFunction from "./01-base/ComponentPropsByFunction";
+// import ComponentPropsByFunction from "./01-base/ComponentPropsByFunction";
+// import UnControlledComponent from "./01-base/UnControlledComponent";
+import ControlledComponent from "./01-base/ControlledComponent";
 
 const App = () => {
     return (
@@ -27,7 +29,9 @@ const App = () => {
             {/*<TodoList/>*/}
             {/*<TabControl/>*/}
             {/*<ComponentProps/>*/}
-            <ComponentPropsByFunction/>
+            {/*<ComponentPropsByFunction/>*/}
+            {/*<UnControlledComponent/>*/}
+            <ControlledComponent/>
         </div>
     );
 }
