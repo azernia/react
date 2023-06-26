@@ -11,7 +11,8 @@
 // import ComponentProps from "./01-base/ComponentProps";
 // import ComponentPropsByFunction from "./01-base/ComponentPropsByFunction";
 // import UnControlledComponent from "./01-base/UnControlledComponent";
-import ControlledComponent from "./01-base/ControlledComponent";
+// import ControlledComponent from "./01-base/ControlledComponent";
+import ChildToParent from "./02-advance/ChildToParent";
 
 const App = () => {
     return (
@@ -31,7 +32,8 @@ const App = () => {
             {/*<ComponentProps/>*/}
             {/*<ComponentPropsByFunction/>*/}
             {/*<UnControlledComponent/>*/}
-            <ControlledComponent/>
+            {/*<ControlledComponent/>*/}
+            <ChildToParent/>
         </div>
     );
 }
