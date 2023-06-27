@@ -35,6 +35,10 @@ class Sidebar extends Component {
 
 export default class ChildToParent extends Component {
 
+    /*
+        子传父就是给子组件传递一个函数，子组件调用这个函数，即回调函数
+     */
+
     state = {
         isShow: false
     }
